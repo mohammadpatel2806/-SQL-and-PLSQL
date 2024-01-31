@@ -20,3 +20,6 @@ FROM film
 RIGHT JOIN inventory ON inventory.film_id = film.film_id
 JOIN rental ON rental.inventory_id = inventory.inventory_id
 GROUP BY rating
+
+
+
